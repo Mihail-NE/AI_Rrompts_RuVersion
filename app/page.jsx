@@ -1,4 +1,6 @@
 
+import Feed from "@components/Feed";
+
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
         <p className="desc text-center">
             Промптопия это инструмент для создания подсказок с открытым исходным кодом для Искусственного Интеллекта. Создавай и делись творческими подсказками.
         </p>
+
+        <Feed />
 
     </section>
   )

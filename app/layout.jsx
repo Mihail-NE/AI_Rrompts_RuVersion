@@ -1,5 +1,6 @@
 import "@styles/globals.css";
-
+import Nav from "@components/Nav";
+import Provider from "@components/Provider";
 
 export const metadata = {
   title: "Promptopia",
@@ -13,7 +14,10 @@ const Rootlayout = ({ children }) => {
         <div>
           <div className="gradient"></div>
         </div>
-        <main className="main">{children}</main>
+        <main className="main">
+            <Nav />
+            {children}
+            </main>
       </body>
     </html>
   );
